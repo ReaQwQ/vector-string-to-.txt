@@ -1,11 +1,11 @@
 # Converter
 
-+ std::vector<std::string> to .txt
++ std::vector< std::string > to .txt
 
 + example
 
-+ std::vector<std::string> a = {
-+    u8"a'
++ std::vector< std::string > a = {
++    u8"a"w
 + }
 + to
 + a
