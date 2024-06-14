@@ -9,7 +9,7 @@ std::vector< std::string > a = {
    u8"a"
 }
 ```
-dto
+to
 ```txt
 a
 ```
