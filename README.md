@@ -21,4 +21,4 @@ a
 + --replace "a" "b"
 + How to add multiple Add double quotes and include spaces such as "A" "B"
 
-+ # Developerd by ReaQwQ
++ # Developed by ReaQwQ
