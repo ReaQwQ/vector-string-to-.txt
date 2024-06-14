@@ -6,12 +6,12 @@ def convert_to_conversations(input_file, output_file, replace_map=None, prefix="
 
     formatted_lines = []
     for line in lines:
-        line = line.strip().replace('u8"', '').replace('"', '')  # Remove 'u8"' and '"'
+        line = line.strip().replace('u8"', '').replace('"', '')
         if replace_map:
             for placeholder, value in replace_map.items():
                 line = line.replace(placeholder, value)
         if line.endswith(','):
-            line = line[:-1]  # Remove the last comma
+            line = line[:-1]
         if line:
             formatted_lines.append(f'{prefix}{line}{suffix}')
 
