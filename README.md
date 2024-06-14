@@ -4,12 +4,15 @@
 
 + example
 
-+ std::vector< std::string > a = {
-+    u8"a"w
-+ }
-+ to
-+ a
-
+```cpp
+std::vector< std::string > a = {
+   u8"a"
+}
+```
+dto
+```txt
+a
+```
 + how to use:
 + Converter.py --input_file "input_file_name.input_file_name" --output_file "output_file_name.output_file_extension" 
 + not required: --replace
